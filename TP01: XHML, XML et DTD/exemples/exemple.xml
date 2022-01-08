@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE stock SYSTEM "exemple.dtd">
+<?xml-stylesheet
+    href="monStyle.css" media="screen"
+    title="Compact" type="text/css" ?>
+<stock>
+  <produit xmlns='http://www.dil.univ-mrs.fr'>
+    <nom> Découvrir XML </nom>
+    <prix monnaie="Euros"> 50 </prix>
+    <quantité>10</quantité>
+  </produit>
+  <produit>
+    <nom> CD </nom>
+    <quantité>5</quantité>
+ </produit>
+   <produit>
+    <nom> DVD </nom>
+    <quantité>15</quantité>
+ </produit><!--Commentaire-->
+ <texte>
+  <![CDATA[en HTML, la balise
+  <p> est très utile !]]>
+  &#169; J.-L.&#160;Massat
+</texte>
+</stock>
+
+<!--
+  1) Pour produire une nouvelle version basée sur un autre encodage :
+  $ xmllint -encode "utf-8" exemple.xml
+  2)
+-->
