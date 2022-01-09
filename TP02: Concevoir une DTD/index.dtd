@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT master (parcours+, semestre+)>
+
+<!ELEMENT parcours (responsables+,nom,description,liste-débouchés, ref-semestre)>
+<!ELEMENT responsables (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT liste-débouchés (#PCDATA)>
+<!ELEMENT ref-semestre (#PCDATA)>
+
+
+<!ELEMENT semestre (unite+)>
+<!ELEMENT unite (intervenant+,UE+)>
+<!ELEMENT intervenant    (nom,adresse-électronique,site-web)>
+<!ELEMENT UE    (nom,nombreCrédits,résumé,plan,lieu, ref-intervenant*)>
+<!ELEMENT nombreCrédits (#PCDATA)>
+<!ELEMENT résumé (#PCDATA)>
+<!ELEMENT plan (#PCDATA)>
+<!ELEMENT lieu (#PCDATA)>
+<!ELEMENT ref-intervenant EMPTY>
+<!ELEMENT site-web (#PCDATA)>
+<!ELEMENT adresse-électronique (#PCDATA)>
+
+<!ENTITY lieu "Aix-Marseille université site de luminy">
+<!ENTITY adresse "univ-amu.fr">
+
+<!ATTLIST UE id CDATA #IMPLIED >
+<!ATTLIST ref-intervenant ref CDATA #IMPLIED>
+<!ATTLIST intervenant id CDATA #IMPLIED>
+<!ATTLIST unite role CDATA #IMPLIED>
+<!ATTLIST ref-semestre ref CDATA #IMPLIED>
+<!ATTLIST semestre id CDATA #IMPLIED>
