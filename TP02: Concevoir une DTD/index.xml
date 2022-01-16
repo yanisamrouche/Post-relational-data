@@ -18,9 +18,32 @@
             de responsable de produit, <![CDATA[d’ingénieur R&D]]> sont également accessibles. 
         </liste-débouchés>
         <ref-semestre ref="S1" />
-    </parcours>
+        <ref-semestre ref="S2" />
+    </parcours>   
+
+    <parcours>
+        <responsables>Cecile CAPPONI</responsables>
+        <nom>SID</nom>
+        <description>
+            Former des informaticiens aux problématiques du développe­ment logiciel, 
+            à savoir l’ex­pression des besoins, la spécification, la conception, la réali­sation,
+            la vérification de la qualité et le déploiement. Les diplômés spécifieront et réaliseront des solutions logi­cielles sécurisées et
+            de quali­té dans des environnements complexes afin d’aider les entre­prises à développer leur système d’information et faciliter
+            leur évolution vers une écono­mie dirigée par le nu­mérique.
+        </description>
+        <liste-débouchés>
+            Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration.
+            Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet 
+            en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, 
+            de responsable de produit, <![CDATA[d’ingénieur R&D]]> sont également accessibles. 
+        </liste-débouchés>
+        <ref-semestre ref="S1" />
+        <ref-semestre ref="S2" />
+    </parcours>  
 
     <semestre id="S1">
+        
+
         <unite role="">
             <intervenant id="HAMRI Maamar el amine">
                 <nom></nom>
@@ -33,7 +56,7 @@
                 <nombreCrédits>6</nombreCrédits>
                 <résumé>spécification / conception / design-pattern, méthodes agiles, intégration continue, Rédaction de documentation, Plannification de projets</résumé>
                 <plan>54 heures</plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <ref-intervenant ref="HAMRI Maamar el amine"/>
                 <ref-intervenant ref="ARRIGHI Pablo"/>
             
@@ -52,7 +75,7 @@
                 <nombreCrédits>6</nombreCrédits>
                 <résumé>analyse de la complexité des algorithmes et des problèmes, classes P et NP et méthodes de résolution des problèmes NP-Complets</résumé>
                 <plan>CM: 20 heures, TD: 20 heures, TP: 14 heures</plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
 
             </UE>
@@ -65,13 +88,12 @@
                 <site-web></site-web>       
             </intervenant>
 
-
             <UE id="SINAU04">
                 <nom>Introduction à la science des données</nom>
                 <nombreCrédits>3</nombreCrédits>
                 <résumé>A travers trois cas d'utilisation, ce cours introduit la notion d'analyse de données, selon trois points de vue: le clustering (apprentissage non supervisé, ACP, kmeans, visualisation), la classification (apprentissage supervisé, notion d’erreur et de modèle, erreur de Bayes, kppv, généralisation et sur-apprentissage), et la régression (notion de causalité, notion d'erreur, protocoles d'évaluation).</résumé>
                 <plan>27 heures</plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
 
             </UE>
@@ -89,7 +111,7 @@
                 <nombreCrédits>3</nombreCrédits>
                 <résumé>Cette UE présente aux étudiants du M1 les principales difficultés de la programmation multi-thread et les techniques classiques permettant de développer un code correct et performant.</résumé>
                 <plan>Cours magistraux: 10 heures, Travaux dirigés: 8 heures, Travaux pratiques: 8 heures, Volume total: 26 heures</plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
             </UE>
         </unite>
 
@@ -105,7 +127,7 @@
                 <nombreCrédits>4</nombreCrédits>
                 <résumé>Architecture en couches, standard OSI, Couche physique, Couche liaison de Données, Réseau IP, Algorithmes de routage, routage IP, Protocole TCP/IP, Couche Application : HTTP, SMTP, FTP, ..., Bases des protocoles cryptographiques (terminologie, architecture à clef publique)., Introduction à la Sécurité des réseaux.</résumé>
                 <plan>Cours magistraux: 12 heures, Travaux dirigés: 12 heures, Travaux pratiques: 14 heures, Volume total: 38 heures</plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
             </UE>
         </unite>
@@ -121,9 +143,8 @@
                 <nombreCrédits>3</nombreCrédits>
                 <résumé>Programmation linéaire, Notions et algorithmes de flots, Applications (couplage, affectation, transport, ...), Programmation dynamique (sac à dos, ordonnancement, ...), Algorithmes à performance garantie</résumé>
                 <plan>Cours magistraux: 10 heures, Travaux dirigés: 8 heures, Travaux pratiques: 9 heures, Volume total: 27 heures</plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
-
             </UE>
         </unite>
     </semestre>
@@ -137,11 +158,11 @@
             </intervenant>
 
             <UE id="">
-                <nom></nom>
+                <nom>IHM</nom>
                 <nombreCrédits></nombreCrédits>
                 <résumé></résumé>
                 <plan></plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <ref-intervenant ref=""/>
                 <ref-intervenant ref=""/>
             
@@ -160,7 +181,7 @@
                 <nombreCrédits></nombreCrédits>
                 <résumé></résumé>
                 <plan></plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
 
             </UE>
@@ -179,7 +200,7 @@
                 <nombreCrédits></nombreCrédits>
                 <résumé></résumé>
                 <plan></plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
 
             </UE>
@@ -201,7 +222,7 @@
                 <nombreCrédits></nombreCrédits>
                 <résumé></résumé>
                 <plan></plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <ref-intervenant ref="HAMRI Maamar el amine"/>
                 <ref-intervenant ref="ARRIGHI Pablo"/>
             
@@ -220,7 +241,7 @@
                 <nombreCrédits></nombreCrédits>
                 <résumé></résumé>
                 <plan></plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
 
             </UE>
@@ -239,7 +260,7 @@
                 <nombreCrédits></nombreCrédits>
                 <résumé></résumé>
                 <plan></plan>
-                <lieu>&lieu;</lieu>
+                <lieu>Aix-Marseille</lieu>
                 <!--<ref-intervenant ref=""/>-->
 
             </UE>

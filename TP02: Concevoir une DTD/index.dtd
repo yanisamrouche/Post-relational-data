@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!ELEMENT master (parcours+, semestre+)>
-
-<!ELEMENT parcours (responsables+,nom,description,liste-débouchés, ref-semestre)>
+<!ELEMENT parcours (responsables+,nom,description,liste-débouchés, ref-semestre+)>
 <!ELEMENT responsables (#PCDATA)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
@@ -21,12 +20,14 @@
 <!ELEMENT site-web (#PCDATA)>
 <!ELEMENT adresse-électronique (#PCDATA)>
 
-<!ENTITY lieu "Aix-Marseille université site de luminy">
+<!ENTITY fac "Aix-Marseille université site de luminy">
 <!ENTITY adresse "univ-amu.fr">
+<!ENTITY % status "status (obligatoire|option) #IMPLIED">
 
 <!ATTLIST UE id CDATA #IMPLIED >
 <!ATTLIST ref-intervenant ref CDATA #IMPLIED>
 <!ATTLIST intervenant id CDATA #IMPLIED>
-<!ATTLIST unite role CDATA #IMPLIED>
+<!ATTLIST unite role CDATA #IMPLIED %status;>
 <!ATTLIST ref-semestre ref CDATA #IMPLIED>
 <!ATTLIST semestre id CDATA #IMPLIED>
+

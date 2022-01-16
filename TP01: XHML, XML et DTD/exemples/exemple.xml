@@ -7,15 +7,15 @@
   <produit xmlns='http://www.dil.univ-mrs.fr'>
     <nom> Découvrir XML </nom>
     <prix monnaie="Euros"> 50 </prix>
-    <quantité>10</quantité>
+    <quantity>10</quantity>
   </produit>
   <produit>
     <nom> CD </nom>
-    <quantité>5</quantité>
+    <quantity>5</quantity>
  </produit>
    <produit>
     <nom> DVD </nom>
-    <quantité>15</quantité>
+    <quantity>15</quantity>
  </produit><!--Commentaire-->
  <texte>
   <![CDATA[en HTML, la balise
