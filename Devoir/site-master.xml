@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<!DOCTYPE site-master SYSTEM "site-master.dtd">
+
+<site-master>
+    <intervenants>
+        <intervenant id="i">
+            <nom></nom>
+            <adresse>
+                <mail></mail>
+                <site-web></site-web>   
+            </adresse>
+        </intervenant>
+    </intervenants>
+
+    <parcours code="p">
+        <nom></nom>
+        <responsables ref="p"></responsables>
+        <lieu></lieu>
+        <description>
+            <texte></texte>
+        </description>
+        <semestre>
+           <ue-obligatoires>
+                <unite id="SINAU01"> 
+                    <nom></nom>
+                    <nombre-credits></nombre-credits>
+                    <ref-intervenant ref="p"></ref-intervenant>
+                    <resume></resume>
+                    <plan>
+                        <chapitres>
+                        </chapitres>
+                    </plan>
+                    <lieu></lieu>               
+                </unite>
+           </ue-obligatoires>
+           <ue-optionnelles credits-options="3">
+                <unite id="SINAU02">
+                    <nom></nom>
+                    <nombre-credits></nombre-credits>
+                    <ref-intervenant ref="p"></ref-intervenant>
+                    <resume></resume>
+                    <plan>
+                        <chapitres>
+                        </chapitres>
+                    </plan>
+                    <lieu></lieu>     
+                </unite>
+           </ue-optionnelles>   
+        </semestre>
+        <liste-debouches>
+            <texte></texte>
+        </liste-debouches>
+
+    </parcours>
+</site-master>

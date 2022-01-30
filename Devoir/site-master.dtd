@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--Element racine 'master' avec ses deux fils <intervenatns et parcours> -->
+<!ELEMENT site-master (intervenants, parcours*)>
+
+<!--Les intervenants-->
+<!ELEMENT intervenants (intervenant+)>
+<!ELEMENT intervenant (nom, adresse)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (mail | site-web)*>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT site-web (#PCDATA)>
+<!--Attribut pour l'element intervenant-->
+<!ATTLIST intervenant id ID #REQUIRED>
+
+<!--Les parcours-->
+<!ELEMENT parcours (nom, responsables+, lieu+, description?, semestre+, liste-debouches?)>
+<!ELEMENT responsables (#PCDATA)>
+<!ELEMENT lieu (#PCDATA)>
+<!ELEMENT description (texte)>
+<!ELEMENT semestre (ue-obligatoires, ue-optionnelles*)>
+<!ELEMENT liste-debouches (texte)>
+<!ELEMENT texte (#PCDATA)*>
+<!--Attribut pour les elements du parcours-->
+<!ATTLIST parcours code ID #REQUIRED>
+<!ATTLIST responsables ref IDREF #REQUIRED>
+
+<!--Les unites-->
+<!ELEMENT ue-obligatoires (unite+)>
+<!ELEMENT ue-optionnelles (unite+)>
+<!ELEMENT unite (nom, nombre-credits, ref-intervenant, resume, plan?, lieu?)>
+<!ELEMENT nombre-credits (#PCDATA)>
+<!ELEMENT resume (texte)?>
+<!ELEMENT plan (chapitres)>
+<!ELEMENT chapitres (#PCDATA)>
+<!--Attribut pour les unites-->
+<!ATTLIST ue-optionnelles credits-options CDATA #REQUIRED>
+<!ATTLIST unite id (SINAU01 |SINAU02 |SINAU03 |SINAU04 |SINAU05 |SINAU06 |SINAU07 |SINAU08 |SINBU01 |SINBX01 |SINBX02 |SINBX03) #REQUIRED>
+
+<!--ref intervenant-->
+<!ELEMENT ref-intervenant ANY>
+<!ATTLIST ref-intervenant ref IDREF #IMPLIED>
+
+<!--les entités-->
+<!ENTITY dom.mail-mrs "univ-mrs.fr">
+<!ENTITY dom.mail-amu "univ-amu.fr">
+<!ENTITY dom.lieu-luminy "Luminy">
+<!ENTITY dom.lieu-st-jerome "Saint-Jerome">
