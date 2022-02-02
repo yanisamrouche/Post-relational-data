@@ -6,16 +6,26 @@
             <xsl:variable name="intervenants_ids" select="//intervenant/@id"/>
             <xsl:variable name="liste-intervenants" select="//intervenant"/>
             <!--production des fichiers XHTML pour chaque UE-->
-            <xsl:for-each select="$liste-intervenants">
+            <xsl:for-each select="//intervenant">
                 <xsl:variable name="nom-intervenant" select="nom"/>
                 <xsl:variable name="id-intervenant" select="@id"/>
                 <xsl:document href="{id-intervenant}.html">
                     <head>
-                        <title>intervenant</title>
+                        <title> <xsl:text>Fiche de : </xsl:text><xsl:value-of select="string(nom)"/> </title>
                     </head>
 
                     <body>
-                        <h2> <xsl:value-of select="nom"/>  </h2>
+                        <a href="index.html"> parcours </a> 
+                        <xsl:for-each select="//parcours">
+                            <a href="{@code}.html">
+                                <xsl:value-of select="@code"/>
+                            </a>
+                        </xsl:for-each>
+                        <a href="liste-unites.html"> les unites</a>
+                        <a href="liste-intervenants.html"> les intervenants</a>
+                        
+                        <h2> <xsl:text>Fiche de : </xsl:text> <xsl:value-of select="nom"/>  </h2>
+                        <!--INFO-->
                     </body>
 
                 </xsl:document>

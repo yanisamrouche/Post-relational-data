@@ -11,6 +11,9 @@
     <xsl:include href="liste-unites.xsl"/>
     <xsl:include href="unites.xsl"/>
     <xsl:include href="liste_intervenants.xsl"/>
+    <xsl:include href="intervenants.xsl"/>
+    <xsl:include href="parcours.xsl"/>
+    
 
     <xsl:template match="/">
         <html>
@@ -19,6 +22,9 @@
                 <xsl:call-template name="liste-unites">
                 <xsl:call-template name="unites">
                 <xsl:call-template name="liste-intervenants">
+                <xsl:call-template name="intervenants">
+                <xsl:call-template name="parcours">
+
             </body>
         </html>
     </xsl:template>

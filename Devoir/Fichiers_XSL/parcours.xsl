@@ -12,6 +12,14 @@
                 </head>
 
                 <body>
+                    <a href="index.html"> parcours </a> 
+                        <xsl:for-each select="//parcours">
+                            <a href="{@code}.html">
+                                <xsl:value-of select="@code"/>
+                            </a>
+                        </xsl:for-each>
+                    <a href="liste-unites.html"> les unites</a>
+                    <a href="liste-intervenants.html"> les intervenants</a>
                     <h1>  <xsl:value-of select="./nom"/>  </h1>
                     <h2> <xsl:text> Responsable(s) : </xsl:text> </h2>
                     <xsl:variable name="id_responsable" select="responsable/@ref"/>

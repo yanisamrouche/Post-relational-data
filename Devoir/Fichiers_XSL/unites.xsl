@@ -16,6 +16,14 @@
                         </head>
 
                         <body>
+                        <a href="index.html"> parcours </a> 
+                        <xsl:for-each select="//parcours">
+                            <a href="{@code}.html">
+                                <xsl:value-of select="@code"/>
+                            </a>
+                        </xsl:for-each>
+                        <a href="liste-unites.html"> les unites</a>
+                        <a href="liste-intervenants.html"> les intervenants</a>
                             <h2> <xsl:value-of select="nom"/>  </h2>
                         </body>
                     </html>
