@@ -4,14 +4,24 @@
 
 <site-master>
     <intervenants>
-        <intervenant id="i">
-            <nom></nom>
+        <intervenant id="Jean-Luc-MASSAT">
+            <nom>Jean-Luc MASSAT</nom>
             <adresse>
-                <mail></mail>
+                <mail>jean-luc.massat@&dom.mail-amu;</mail>
+                <site-web>http://jean-luc.massat.perso.luminy.&dom.mail-amu;</site-web>   
+            </adresse>
+        </intervenant>
+
+        <intervenant id="HAMRI-Maamar-el-amine">
+            <nom>HAMRI Maamar el amine/nom>
+            <adresse>
+                <mail>hamri-maamar.elamine@&dom.mail-amu;</mail>
                 <site-web></site-web>   
             </adresse>
         </intervenant>
+
     </intervenants>
+    
 
     <parcours code="p">
         <nom></nom>
