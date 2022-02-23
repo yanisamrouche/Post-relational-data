@@ -4,63 +4,290 @@
 
 <site-master>
     <intervenants>
-        <intervenant id="Jean-Luc-MASSAT">
-            <nom>Jean-Luc MASSAT</nom>
+        <intervenant id="Jean-Luc_MASSAT">
+            <nom>Jean-Luc-MASSAT</nom>
             <adresse>
-                <mail>jean-luc.massat@&dom.mail-amu;</mail>
-                <site-web>http://jean-luc.massat.perso.luminy.&dom.mail-amu;</site-web>   
+                <mail>jean-luc-massat@&dom.mail-amu;</mail>
+                <site-web>http://pageperso.lif.&dom.mail-mrs;/~jean-luc.massat/</site-web>   
             </adresse>
-        </intervenant>
-
-        <intervenant id="HAMRI-Maamar-el-amine">
-            <nom>HAMRI Maamar el amine</nom>
-            <adresse>
-                <mail>hamri-maamar.elamine@&dom.mail-amu;</mail>
-                <site-web></site-web>   
-            </adresse>
-        </intervenant>
-
+    </intervenant>
+    <intervenant id="Remi_MORIN">
+			<nom>Rémi MORIN</nom>
+			<adresse>
+				<mail>remi.morin@&dom.mail-amu;</mail>
+				<site-web>http://pageperso.lif.&dom.mail-mrs;/~remi.morin/</site-web>
+			</adresse>
+		</intervenant>
+    <intervenant id="Kevin_PERROT">
+			<nom>Kevin PERROT</nom>
+			<adresse>
+				<mail>kevin.perrot@lif.&dom.mail-mrs;</mail>
+				<site-web>http://pageperso.lif.&dom.mail-mrs;/~kevin.perrot/</site-web>
+			</adresse>
+    </intervenant>
+    <intervenant id="Djamal_HABET">
+			<nom>Djamal HABET</nom>
+			<adresse>
+				<mail>djamal.habet@&dom.mail-amu;</mail>
+				<site-web>https://pageperso.lis-lab.fr/djamal.habet/</site-web>
+			</adresse>
+	</intervenant>
+    <intervenant id="Omar_BOUCELMA">
+			<nom>Omar BOUCELMA</nom>
+			<adresse>
+				<mail>omar.boucelma@&dom.mail-amu;</mail>
+				<site-web>https://annuaire.&dom.mail-amu;/personnel/detail/b21hci5ib3VjZWxtYQ==</site-web>
+			</adresse>
+	</intervenant>
+    <intervenant id="Noel_NOVELLI">
+			<nom>Noël Novelli</nom>
+			<adresse>
+				<mail>noel.novelli@&dom.mail-amu;</mail>
+                <site-web>https://pageperso.lis-lab.fr/noel.novelli/</site-web>
+			</adresse>
+	</intervenant>
+    <intervenant id="Emmanuel_GODARD">
+			<nom>Emmanuel GODARD</nom>
+			<adresse>
+				<mail>emmanuel.godard@&dom.mail-amu;</mail>
+				<site-web>https://pageperso.lis-lab.fr/emmanuel.godard/index.html</site-web>
+			</adresse>
+	</intervenant>
+     <intervenant id="Philippe_Jegou">
+			<nom>Philippe Jegou</nom>
+			<adresse>
+				<mail>philippe.jegou@&dom.mail-amu;</mail>
+				<site-web>https://www.researchgate.net/profile/Philippe-Jegou</site-web>
+			</adresse>
+	</intervenant>
+     <intervenant id="Maamar_El-Amine_HAMRI">
+			<nom>Maâmar El-Amine HAMRI </nom>
+			<adresse>
+				<mail>amine.hamri@lsis.org</mail>
+				<site-web>http://www.liophant.org/iepal/u_us3/cv_f_a.html</site-web>
+			</adresse>
+	</intervenant>
     </intervenants>
-    
 
-    <parcours code="p">
-        <nom></nom>
-        <responsables ref="p"></responsables>
-        <lieu></lieu>
-        <description>
-            <texte></texte>
-        </description>
-        <semestre>
-           <ue-obligatoires>
-                <unite id="SINAU01"> 
-                    <nom></nom>
-                    <nombre-credits></nombre-credits>
-                    <ref-intervenant ref="p"></ref-intervenant>
-                    <resume></resume>
-                    <plan>
-                        <chapitres>
-                        </chapitres>
+   <parcours code="M1">
+		<nom>Première année de tronc commun</nom>
+		<lieu>&dom.lieu-luminy;</lieu>
+		<lieu>&dom.lieu-saint-jerome;</lieu>
+		<responsable ref="Remi_MORIN"/>
+		<description>
+			<texte>
+				<p>L'objectif de cette première année est de donner les bases indispensables permettant, en deuxième année, de choisir une spécialisation dans un domaine précis. Sur les 60 crédits de cette première année, 15 crédits correspondent à des enseignements optionnels. Ces options permettent de construire un parcours adapté. Un choix entre stage ou projet encadré est également proposé au semestre de printemps.</p>
+			</texte>
+		</description>
+
+        <semestre id="S1">	
+			<ue-obligatoires>
+				<unite id="SINAU02">
+					<nom>Génie Logiciel</nom>
+					<nombre-credits>6</nombre-credits>
+					<ref-intervenant ref="Maamar_El-Amine_HAMRI"/>
+					<ref-intervenant ref="Kevin_PERROT"/>
+					<resume>
+						<texte>
+							<ul>
+							    <li>Introduction au génie logiciel</li>
+							    <li>Gestion de projet</li>
+							    <li>Méthodes (Spécification et conception)</li>
+							    <li>UML et Design patterns</li>
+							</ul>
+						</texte>
+					</resume>
+					<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
                     </plan>
-                    <lieu></lieu>               
-                </unite>
-           </ue-obligatoires>
+					<lieu>&dom.lieu-luminy;</lieu>
+				</unite>
+				<unite id="SINAU05">
+					<nom>Programmation objet concurrente</nom>
+					<nombre-credits>3</nombre-credits>
+					<ref-intervenant ref="Remi_MORIN"/>
+					<resume>
+						<texte>
+                         Cette UE présente aux étudiants du M1 les principales difficultés de la programmation multi-thread et les techniques classiques permettant de développer un code correct et performant. 
+						</texte>
+					</resume>
+					<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
+                    </plan>
+					<lieu>&dom.lieu-luminy;</lieu>
+				</unite>		
+				<unite id="SINAU3">
+					<nom>Complexité</nom>
+					<nombre-credits>6</nombre-credits>
+					<ref-intervenant ref="Philippe_Jegou"/>
+					
+					<resume>
+						<texte>
+							<ul>
+							    <li>Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes.</li>
+							    <li>Notion de problèmes (décision, recherche, dénombrement, énumération, optimisation). Bornes inférieures de complexité.</li>
+							    <li>Classes P et NP. Problèmes NP-complets.</li>
+							    <li>Méthodes de résolution des problèmes NP-Complets.</li>
+							</ul>
+						</texte>
+					</resume>
+					<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
+                    </plan>
+					<lieu>&dom.lieu-luminy;</lieu>
+				</unite>			
+				<unite id="SINAU06">
+					<nom>Réseaux</nom>
+					<nombre-credits>6</nombre-credits>
+					<ref-intervenant ref="Djamal_HABET"/>
+					<resume>
+						<texte>
+							<ul>
+							    <li>Architecture en couches, standard OSI</li>
+							    <li>Couche physique</li>
+							    <li>Couche liaison de Données</li>
+							    <li>Réseau IP</li>
+							    <li>Algorithmes de routage, routage IP</li>
+							    <li>Protocole TCP/IP</li>
+							    <li>Couche Application : HTTP, SMTP, FTP, ...</li>
+							    <li>Bases des protocoles cryptographiques (terminologie, architecture à clef publique).</li>
+							    <li>Introduction à la Sécurité des réseaux.</li>
+							</ul>
+						</texte>
+					</resume>
+					<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
+                    </plan>
+					<lieu>&dom.lieu-luminy;</lieu>
+							</unite>
+		        <unite id="SINAU1">
+				<nom>Anglais</nom>
+				<nombre-credits>3</nombre-credits>
+				<ref-intervenant/>
+				<resume>
+					<texte>
+						<p>Un enseignement destiné à confirmer l'utilisation de l'anglais dans le contexte de l'informatique ainsi que dans la pratique professionnelle.</p>
+					</texte>
+				</resume>
+				<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
+                </plan>
+				<lieu>&dom.lieu-luminy;</lieu>
+				</unite>
+            </ue-obligatoires>    
+		</semestre>
+		<semestre id="S2">	
+		    <ue-obligatoires>
+	        <unite id="ENSINBU4">
+					<nom>Données post relationnels </nom>
+					<nombre-credits>3</nombre-credits>
+					<ref-intervenant ref="Jean-Luc_MASSAT"/>
+					<resume>
+						<texte>
+							<ul>
+							 	<li>XML, DTD, XSD</li>
+							 	<li>XPath, XSLT, XQuery</li>
+							</ul>
+						</texte>
+					</resume>
+					<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
+                    </plan>
+					<lieu>&dom.lieu-luminy;</lieu>
+				</unite>
+            </ue-obligatoires>
            <ue-optionnelles credits-options="3">
-                <unite id="SINAU02">
-                    <nom></nom>
-                    <nombre-credits></nombre-credits>
-                    <ref-intervenant ref="p"></ref-intervenant>
-                    <resume></resume>
-                    <plan>
-                        <chapitres>
-                        </chapitres>
+                <unite id="SINBU03">
+					<nom>cryptographie</nom>
+					<nombre-credits>3</nombre-credits>
+					<ref-intervenant ref="Remi_MORIN"/>
+					<resume>
+						<texte>
+							<p>Cette UE propose un tour d'horizon de la cryptographie moderne: il s'agit d'initier les étudiants du Master Informatique aux problématiques fondamentales de confidentialité, d’authentification et d’intégrité, illustrées sur des cas concrets. Une attention particulière est portée sur la mise-en-oeuvre de primitives cryptographiques à l'aide de librairies spécifiques afin d'être en mesure d'incorporer des fonctionnalités cryptographiques dans un logiciel sécurisé.</p>
+						</texte>
+					</resume>
+					<plan>
+                            <texte>
+                    		<ul>
+							    <li>chapitre 01 : ...</li>
+							    <li>chapitre 02 : ...</li>
+							    <li>chapitre 03 : ...</li>
+							    <li>chapitre 04 : ...</li>
+							</ul>
+                            </texte>
                     </plan>
-                    <lieu></lieu>     
-                </unite>
+					<lieu>&dom.lieu-luminy;</lieu>
+				</unite>
+			</ue-optionnelles>   
+			<ue-optionnelles credits-options="6">
+				<unite id="SINBU30">
+					<nom>Stage de deux mois</nom>
+					<nombre-credits>6</nombre-credits>
+					<ref-intervenant ref="Remi_MORIN"/>
+					<resume>
+						<texte>
+							<p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en nbrCours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</p>
+						</texte>
+					</resume>
+				</unite>
+				<unite id="SINBU29">
+					<nom>Travail d'étude et de recherche</nom>
+					<nombre-credits>6</nombre-credits>
+					<ref-intervenant ref="Remi_MORIN"/>
+					<resume>
+						<texte>
+							<p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en nbrCours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</p>
+						</texte>
+					</resume>
+				</unite>
            </ue-optionnelles>   
         </semestre>
         <liste-debouches>
-            <texte></texte>
+            <texte>Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration. Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, de responsable de produit, d’ingénieur recherche et développement sont également accessibles.</texte>
         </liste-debouches>
+        
 
     </parcours>
 </site-master>
