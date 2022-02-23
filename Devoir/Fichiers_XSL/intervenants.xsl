@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:template name="intervenant">
+    <xsl:template name="intervenants">
             <!--une variable qui permet de recuperer touts les ids des intervenants-->
             <xsl:variable name="intervenants_ids" select="//intervenant/@id"/>
             <xsl:variable name="liste-intervenants" select="//intervenant"/>
@@ -10,6 +10,7 @@
                 <xsl:variable name="nom-intervenant" select="nom"/>
                 <xsl:variable name="id-intervenant" select="@id"/>
                 <xsl:document href="{id-intervenant}.html">
+                <html>
                     <head>
                         <title> <xsl:text>Fiche de : </xsl:text><xsl:value-of select="string(nom)"/> </title>
                     </head>
@@ -27,7 +28,7 @@
                         <h2> <xsl:text>Fiche de : </xsl:text> <xsl:value-of select="nom"/>  </h2>
                         <!--INFO-->
                     </body>
-
+                </html>
                 </xsl:document>
             </xsl:for-each>
     </xsl:template>

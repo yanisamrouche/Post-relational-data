@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template name="parcours">
-
     <xsl:for-each select="//parcours">
         <xsl:variable name="code_parcours" select="//parcours/@code" />
         <xsl:document href="{code_parcours}.html">
             <html>
+            
                 <head>
-                    <title> <xsl:text> AMU : Parcours</xsl:text> <xsl:value-of select="string(nom)"/> </title>
+                    <title> <xsl:text> AMU : Parcours </xsl:text> <xsl:value-of select="string(nom)"/> </title>
                 
                 </head>
 
@@ -46,7 +46,7 @@
 
                     <h2> <xsl:text> Enseignements : </xsl:text> </h2>
                     <xsl:for-each select="./semestre">
-                        <h3><xsl:text>semestre : </xsl:text> <xsl:value-of select="@id"></h3>
+                        <h3><xsl:text>semestre : </xsl:text> <xsl:value-of select="@id"/></h3>
                         <ul>
                             <li> Unités obligatoires : 
                                 <ul>
@@ -56,7 +56,7 @@
                                                     <xsl:value-of select="nom"/> <xsl:text>(</xsl:text><xsl:value-of select="credits"/> <xsl:text>credits)</xsl:text>
                                             </a>
                                         </li>
-                                    <xsl:for-each>
+                                    </xsl:for-each>
         
                                 </ul>
                             </li>

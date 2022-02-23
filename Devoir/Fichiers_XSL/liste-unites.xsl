@@ -2,10 +2,10 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template name="liste-unites">
-        <xsl:document href="unites.html">
+        <xsl:document href="liste-unites.html">
             <html>
                 <head>
-                    <title> <xsl:text> Les unités d'enseignements <xsl:text>  </title>
+                    <title> <xsl:text> Les unités d'enseignements </xsl:text>  </title>
                 </head>
 
                 <body>

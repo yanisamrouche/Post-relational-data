@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template name="liste-intervenants">
-        <xsl:document href="intervenants.html">
+        <xsl:document href="liste-intervenants.html">
             <html>
 
                 <head>

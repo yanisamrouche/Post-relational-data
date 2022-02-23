@@ -5,7 +5,14 @@
     <xsl:template name="index">
         <xsl:document href="index.html">
             <!--point d'entrée du site-->
-
+            <html>
+                <head>
+                </head>
+                <body>
+                    <h1> SITE DU MASTER </h1>
+                </body>
+                 
+            </html>
 
         </xsl:document>
     </xsl:template>
