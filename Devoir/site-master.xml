@@ -253,12 +253,12 @@
 					</resume>
 					<plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+								<ul>
+									<li>chapitre 01 : ...</li>
+									<li>chapitre 02 : ...</li>
+									<li>chapitre 03 : ...</li>
+									<li>chapitre 04 : ...</li>
+								</ul>
                             </texte>
                     </plan>
 					<lieu>&dom.lieu-luminy;</lieu>
@@ -290,7 +290,5 @@
         <liste-debouches>
             <texte>Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration. Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, de responsable de produit, d’ingénieur recherche et développement sont également accessibles.</texte>
         </liste-debouches>
-        
-
     </parcours>
 </site-master>

@@ -71,7 +71,7 @@
                                         <xsl:for-each select="ue-obligatoires/unite">
                                             <li>
                                                 <a href="../unites/{@id}.html">                                           
-                                                        <xsl:value-of select="nom"/> <xsl:text>(</xsl:text><xsl:value-of select="credits"/> <xsl:text>credits)</xsl:text>
+                                                        <xsl:value-of select="nom"/> <xsl:text>(</xsl:text><xsl:value-of select="nombre-credits"/> <xsl:text>credits)</xsl:text>
                                                 </a>
                                             </li>
                                         </xsl:for-each>
@@ -86,7 +86,7 @@
                                                 <li>
                                                     <a href="../unites/{@id}.html">
                                                         <xsl:value-of select="nom"/>
-                                                        <xsl:text>(</xsl:text><xsl:value-of select="credits"/> <xsl:text>credits)</xsl:text>
+                                                        <xsl:text>(</xsl:text><xsl:value-of select="nombre-credits"/> <xsl:text>credits)</xsl:text>
 
                                                     </a>
                                                 </li>

@@ -30,14 +30,21 @@
                         <div>
                 
                             <h1>Les intervenants du Master Informatique</h1>
-                            <ul>
+                            <table>
+                                <tr>
+                                    <th>Nom de l'intervenant</th>
+                                    <th>E-mail</th>
+                                    <th>web</th>
+                                </tr>
                                 <xsl:for-each select="//intervenant">                       
-                                <!--<xsl:apply-templates/> -->                      
-                                        <li> <a href="{attribute::id}.html"> <xsl:value-of select="string(nom)"/></a></li> 
-                                        <li> <a target="_blank" href="mailto:{adresse/mail}"> <xsl:value-of select="adresse/mail"/></a></li> 
-                                        <li> <a target="_blank" href="{adresse/site-web}"> <xsl:value-of select="adresse/site-web"/></a></li> 
+                                <!--<xsl:apply-templates/> -->
+                                    <tr>                      
+                                        <td> <a href="{attribute::id}.html"> <xsl:value-of select="string(nom)"/></a> </td>
+                                        <td> <a target="_blank" href="mailto:{adresse/mail}"> <xsl:value-of select="adresse/mail"/></a> </td>
+                                        <td> <a target="_blank" href="{adresse/site-web}"> <xsl:value-of select="adresse/site-web"/></a> </td>
+                                    </tr>     
                                 </xsl:for-each>
-                            </ul> 
+                            </table> 
                         </div>
                     </div>  
 
