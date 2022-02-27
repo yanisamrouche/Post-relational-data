@@ -20,14 +20,21 @@
 <!ELEMENT description (texte)>
 <!ELEMENT semestre (ue-obligatoires, ue-optionnelles*)>
 <!ELEMENT liste-debouches (texte)>
-<!ELEMENT texte (#PCDATA | ul | p)*>
+<!ELEMENT texte (#PCDATA | ul | p | table | a)*>
 <!ELEMENT ul (li+)>
 <!ELEMENT li (#PCDATA)>
 <!ELEMENT p (#PCDATA)>
+<!ELEMENT table (th*, tr*)>
+<!ELEMENT th (#PCDATA)>
+<!ELEMENT tr (td*)>
+<!ELEMENT td (#PCDATA)>
+<!ELEMENT a  ANY>
 <!--Attribut pour les elements du parcours-->
 <!ATTLIST semestre id (S1 | S2) #REQUIRED>
 <!ATTLIST parcours code ID #REQUIRED>
 <!ATTLIST responsable ref IDREF #REQUIRED>
+<!ATTLIST a  href CDATA	#REQUIRED>
+
 
 <!--Les unites-->
 <!ELEMENT ue-obligatoires (unite+)>
@@ -44,8 +51,9 @@
 <!ELEMENT ref-intervenant ANY>
 <!ATTLIST ref-intervenant ref IDREF #IMPLIED>
 
-<!--les entités-->
+<!--les entités
 <!ENTITY dom.mail-mrs "univ-mrs.fr">
 <!ENTITY dom.mail-amu "univ-amu.fr">
 <!ENTITY dom.lieu-luminy "Luminy">
 <!ENTITY dom.lieu-saint-jerome "Saint-Jerome">
+-->

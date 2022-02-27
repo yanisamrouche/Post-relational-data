@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet href="index.xsl" type="text/xsl"?>
-<!DOCTYPE site-master SYSTEM "site-master.dtd">
-
+<!DOCTYPE site-master SYSTEM "site-master.dtd"[
+		<!ENTITY dom.mail-mrs "univ-mrs.fr">
+		<!ENTITY dom.mail-amu "univ-amu.fr">
+		<!ENTITY dom.lieu-luminy "Luminy">
+		<!ENTITY dom.lieu-saint-jerome "Saint-Jérôme">
+]>
 <site-master>
     <intervenants>
         <intervenant id="Jean-Luc_MASSAT">
