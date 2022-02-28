@@ -10,56 +10,56 @@
         <intervenant id="Jean-Luc_MASSAT">
             <nom>Jean-Luc-MASSAT</nom>
             <adresse>
-                <mail>jean-luc-massat@&dom.mail-amu;</mail>
-                <site-web>http://pageperso.lif.&dom.mail-mrs;/~jean-luc.massat/</site-web>   
+                <mail>jean-luc-massat@univ-amu.fr</mail>
+                <site-web>http://pageperso.lif.univ-mrs.fr/~jean-luc.massat/</site-web>   
             </adresse>
     </intervenant>
     <intervenant id="Remi_MORIN">
 			<nom>Rémi MORIN</nom>
 			<adresse>
-				<mail>remi.morin@&dom.mail-amu;</mail>
-				<site-web>http://pageperso.lif.&dom.mail-mrs;/~remi.morin/</site-web>
+				<mail>remi.morin@univ-amu.fr</mail>
+				<site-web>http://pageperso.lif.univ-mrs.fr/~remi.morin/</site-web>
 			</adresse>
 		</intervenant>
     <intervenant id="Kevin_PERROT">
 			<nom>Kevin PERROT</nom>
 			<adresse>
-				<mail>kevin.perrot@lif.&dom.mail-mrs;</mail>
-				<site-web>http://pageperso.lif.&dom.mail-mrs;/~kevin.perrot/</site-web>
+				<mail>kevin.perrot@lif.univ-mrs.fr</mail>
+				<site-web>http://pageperso.lif.univ-mrs.fr/~kevin.perrot/</site-web>
 			</adresse>
     </intervenant>
     <intervenant id="Djamal_HABET">
 			<nom>Djamal HABET</nom>
 			<adresse>
-				<mail>djamal.habet@&dom.mail-amu;</mail>
+				<mail>djamal.habet@univ-amu.fr</mail>
 				<site-web>https://pageperso.lis-lab.fr/djamal.habet/</site-web>
 			</adresse>
 	</intervenant>
     <intervenant id="Omar_BOUCELMA">
 			<nom>Omar BOUCELMA</nom>
 			<adresse>
-				<mail>omar.boucelma@&dom.mail-amu;</mail>
-				<site-web>https://annuaire.&dom.mail-amu;/personnel/detail/b21hci5ib3VjZWxtYQ==</site-web>
+				<mail>omar.boucelma@univ-amu.fr</mail>
+				<site-web>https://annuaire.univ-amu.fr/personnel/detail/b21hci5ib3VjZWxtYQ==</site-web>
 			</adresse>
 	</intervenant>
     <intervenant id="Noel_NOVELLI">
 			<nom>Noël Novelli</nom>
 			<adresse>
-				<mail>noel.novelli@&dom.mail-amu;</mail>
+				<mail>noel.novelli@univ-amu.fr</mail>
                 <site-web>https://pageperso.lis-lab.fr/noel.novelli/</site-web>
 			</adresse>
 	</intervenant>
     <intervenant id="Emmanuel_GODARD">
 			<nom>Emmanuel GODARD</nom>
 			<adresse>
-				<mail>emmanuel.godard@&dom.mail-amu;</mail>
+				<mail>emmanuel.godard@univ-amu.fr</mail>
 				<site-web>https://pageperso.lis-lab.fr/emmanuel.godard/index.html</site-web>
 			</adresse>
 	</intervenant>
      <intervenant id="Philippe_Jegou">
 			<nom>Philippe Jegou</nom>
 			<adresse>
-				<mail>philippe.jegou@&dom.mail-amu;</mail>
+				<mail>philippe.jegou@univ-amu.fr</mail>
 				<site-web>https://www.researchgate.net/profile/Philippe-Jegou</site-web>
 			</adresse>
 	</intervenant>
@@ -74,8 +74,8 @@
 
    <parcours code="M1">
 		<nom>Première année de tronc commun</nom>
-		<lieu>&dom.lieu-luminy;</lieu>
-		<lieu>&dom.lieu-saint-jerome;</lieu>
+		<lieu>Luminy</lieu>
+		<lieu>Saint-Jérôme</lieu>
 		<responsable ref="Remi_MORIN"/>
 		<description>
 			<texte>
@@ -110,7 +110,7 @@
 							</ul>
                             </texte>
                     </plan>
-					<lieu>&dom.lieu-luminy;</lieu>
+					<lieu>Luminy</lieu>
 				</unite>
 				<unite id="SINAU05">
 					<nom>Programmation objet concurrente</nom>
@@ -131,7 +131,7 @@
 							</ul>
                             </texte>
                     </plan>
-					<lieu>&dom.lieu-luminy;</lieu>
+					<lieu>Luminy</lieu>
 				</unite>		
 				<unite id="SINAU3">
 					<nom>Complexité</nom>
@@ -158,7 +158,7 @@
 							</ul>
                             </texte>
                     </plan>
-					<lieu>&dom.lieu-luminy;</lieu>
+					<lieu>Luminy</lieu>
 				</unite>			
 				<unite id="SINAU06">
 					<nom>Réseaux</nom>
@@ -189,7 +189,7 @@
 							</ul>
                             </texte>
                     </plan>
-					<lieu>&dom.lieu-luminy;</lieu>
+					<lieu>Luminy</lieu>
 							</unite>
 		        <unite id="SINAU1">
 				<nom>Anglais</nom>
@@ -210,7 +210,7 @@
 							</ul>
                             </texte>
                 </plan>
-				<lieu>&dom.lieu-luminy;</lieu>
+				<lieu>Luminy</lieu>
 				</unite>
             </ue-obligatoires>    
 		</semestre>
@@ -238,7 +238,7 @@
 							</ul>
                             </texte>
                     </plan>
-					<lieu>&dom.lieu-luminy;</lieu>
+					<lieu>Luminy</lieu>
 				</unite>
             </ue-obligatoires>
            <ue-optionnelles credits-options="3">
@@ -261,7 +261,7 @@
 								</ul>
                             </texte>
                     </plan>
-					<lieu>&dom.lieu-luminy;</lieu>
+					<lieu>Luminy</lieu>
 				</unite>
 			</ue-optionnelles>   
 			<ue-optionnelles credits-options="6">

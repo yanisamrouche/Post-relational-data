@@ -1,0 +1,3 @@
+dtd : xmllint --valid site-web.xml
+rep www : saxon -xsl:./Fichiers_XSL/site-web.xsl site-web.xml
+xsd : xmllint --schema site-web.xsd site-web.xml

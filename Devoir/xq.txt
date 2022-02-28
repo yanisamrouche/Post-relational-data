@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>XQuery</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+
+    <body>
+        <centre>
+            <table>
+                <tr>
+                      <th>Enseignant</th>
+                      <th>Enseignements qu'il assure</th>
+                      <th>Parcours</th>
+                </tr>
+                {for $intervenant in doc("site-master.xml")/site-master/intervenants/intervenant 
+                order by $intervenant/nom
+                return <tr>
+                            <td> {data($intervenant/nom)} </td>
+                            {for $unite in doc("site-master.xml")//unite where $intervenant/@id=$unite/ref-intervenant/@ref 
+                            return <td>  
+                                        <ul>
+                                            <li> {data($unite/nom)} </li>
+                                        </ul>    
+                                    </td>
+                            {for $parcours in doc("site-master")//parcours where ($unite/../../../nom=$parcours/nom) 
+                            return <td>
+                                    data($parcours/nom)
+                                   </td>
+                            }
+                            }
+                       </tr>
+
+                }
+            </table>
+        </centre>
+    </body>
+</html
