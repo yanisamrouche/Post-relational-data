@@ -5,19 +5,19 @@
     <xsl:template name="parcours">
     <xsl:for-each select="//parcours">
         <xsl:variable name="code_parcours" select="@code" />
-        <xsl:result-document href="../www/parcours/{@code}.html">
+        <xsl:result-document href="./www/parcours/{@code}.html">
             <html>
             
                 <head>
                     <title> <xsl:text> AMU : Parcours </xsl:text> <xsl:value-of select="string(nom)"/> </title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-                    <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+                    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="screen" />
 
                 </head>
 
                 <body>
                 <div class="main">
-                    <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
+                                <img src="../../assets/image/amu.jpg" alt=""/>
 
                     <div class="menu">
                         <a href="../index.html"> Parcours </a> 

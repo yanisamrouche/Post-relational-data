@@ -3,7 +3,7 @@
 
 
     <xsl:template name="index">
-        <xsl:result-document href="../www/index.html">
+        <xsl:result-document href="./www/index.html">
             <!--point d'entrée du site-->
             <html>
             	<xsl:attribute name="xml:lang">en</xsl:attribute>
@@ -12,11 +12,11 @@
                     <title> <xsl:text> Site Master AMU </xsl:text>   </title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
                     <!-- ajout feuille de style ICI ! -->
-                    <link rel="stylesheet" type="text/css" href="../Devoir/assets/css/style.css" media="screen" />
+                    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" media="screen" />
                 </head>
                 <body>
                     <div class="page-accueil">
-                        <img src="../Devoir/assets/image/amu.jpg" alt=""/>
+                                <img src="../assets/image/amu.jpg" alt=""/>
                         <!--MENU-->
 
                         <div class="menu">
@@ -89,7 +89,7 @@
 
                         <div class="parcours">
                             <h4> <xsl:text> Régimes d'inscription </xsl:text> </h4>
-                            <centre>
+                            
                                 <table>
 
                                     <tr> <th> Détails des Années ou parcours </th> <th> FI </th> <th> FC </th> <th> FAL </th> <th> FAP </th> <th> CP </th> </tr>
@@ -101,7 +101,7 @@
                                     <tr> <td> Parcours : Science et ingénierie des données (SID) </td> <td>OUI </td> <td> NON</td> <td>OUI </td> <td> NON</td> <td> NON</td> </tr>
 
                                 </table>
-                            </centre>
+                            
                         </div>
 
                     </div>

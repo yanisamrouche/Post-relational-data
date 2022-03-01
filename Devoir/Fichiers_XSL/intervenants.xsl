@@ -4,19 +4,19 @@
     <xsl:template name="intervenants">
            <!--production des fichiers XHTML pour chaque UE-->
             <xsl:for-each select="//intervenant">
-                <xsl:result-document href="../www/intervenants/{@id}.html">
+                <xsl:result-document href="./www/intervenants/{@id}.html">
                     <html>
                         <head>
                             <title> <xsl:text>Fiche de : </xsl:text><xsl:value-of select="string(nom)"/> </title>
                             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
                             <!--CSS-->
-                            <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+                            <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="screen" />
 
                         </head>
 
                         <body>
                             <div class="main">
-                                <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
+                                <img src="../../assets/image/amu.jpg" alt=""/>
 
                                 <!--MENU-->
                                 <div class="menu">

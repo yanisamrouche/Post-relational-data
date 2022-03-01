@@ -13,18 +13,18 @@
             <xsl:for-each select="$unites_ids">
                 <xsl:variable name="unite" select="$liste-unites[@id=current()[1]]"/>
                 <xsl:variable name="id-unite" select="current()[1]"/>
-                <xsl:result-document href="../www/unites/{current()[1]}.html">
+                <xsl:result-document href="./www/unites/{current()[1]}.html">
                     <html>
                         <head>
                             <title><xsl:value-of select="distinct-values($unite/nom)"/></title>
                             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-                            <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+                            <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="screen" />
 
                         </head>
 
                         <body>
                             <div class="main">
-                                <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
+                                <img src="../../assets/image/amu.jpg" alt=""/>
 
                                 <!--MENU-->
                                 <div class="menu">
