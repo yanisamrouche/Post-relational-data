@@ -11,10 +11,14 @@
                 <head>
                     <title> <xsl:text> AMU : Parcours </xsl:text> <xsl:value-of select="string(nom)"/> </title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                    <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+
                 </head>
 
                 <body>
                 <div class="main">
+                    <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
+
                     <div class="menu">
                         <a href="../index.html"> Parcours </a> 
                             <xsl:for-each select="//parcours">

@@ -18,10 +18,14 @@
                         <head>
                             <title><xsl:value-of select="distinct-values($unite/nom)"/></title>
                             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                            <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+
                         </head>
 
                         <body>
                             <div class="main">
+                                <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
+
                                 <!--MENU-->
                                 <div class="menu">
                                     <a href="../index.html"> parcours </a> 

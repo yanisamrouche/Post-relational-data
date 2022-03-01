@@ -12,10 +12,13 @@
                     <title> <xsl:text> Site Master AMU </xsl:text>   </title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
                     <!-- ajout feuille de style ICI ! -->
+                    <link rel="stylesheet" type="text/css" href="../Devoir/assets/css/style.css" media="screen" />
                 </head>
                 <body>
                     <div class="page-accueil">
+                        <img src="../Devoir/assets/image/amu.jpg" alt=""/>
                         <!--MENU-->
+
                         <div class="menu">
                             <a href="index.html"> Parcours </a>
                             <xsl:for-each select="//parcours">

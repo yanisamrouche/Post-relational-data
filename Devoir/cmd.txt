@@ -1,3 +1,4 @@
-dtd : xmllint --valid site-web.xml
-rep www : saxon -xsl:./Fichiers_XSL/site-web.xsl site-web.xml
-xsd : xmllint --schema site-web.xsd site-web.xml
+dtd : xmllint --valid site-master.xml
+rep www : saxon -xsl:./Fichiers_XSL/site-master.xsl site-master.xml
+xsd : xmllint --schema site-master.xsd site-master.xml
+xq : java -cp saxon9/saxon9he.jar: net.sf.saxon.Query -q:xq.txt -o:../www/xq.html

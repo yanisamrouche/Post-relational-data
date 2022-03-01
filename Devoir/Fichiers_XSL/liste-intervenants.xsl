@@ -9,12 +9,15 @@
                     <title> <xsl:text> Les intervenants du Master Informatique </xsl:text> </title>
 					<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />                    
                     <!--CSS-->
+                    <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+
                 </head>
 
                 <body>
 
                     <div class="main">
-                
+                        <img src=".../../Devoir/assets/image/amu.jpg" alt=""/>
+
                         <!--MENU-->
                         <div class="menu">
                             <a href="../index.html"> Parcours </a>

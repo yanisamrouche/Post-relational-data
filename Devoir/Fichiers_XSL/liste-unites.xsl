@@ -6,12 +6,16 @@
             <html>
                 <head>
                     <title> <xsl:text> Les unités d'enseignements </xsl:text>  </title>
-					<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />                    
+					<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+                    <link rel="stylesheet" type="text/css" href="../../Devoir/assets/css/style.css" media="screen" />
+                  
                 </head>
 
                 <body>
 
                     <div class="main">
+                        <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
+
                         <!--MENU-->
                         <div class="menu">
                             <a href="../index.html"> parcours </a> 
