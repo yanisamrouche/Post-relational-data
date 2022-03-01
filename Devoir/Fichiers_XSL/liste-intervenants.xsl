@@ -16,7 +16,7 @@
                 <body>
 
                     <div class="main">
-                        <img src=".../../Devoir/assets/image/amu.jpg" alt=""/>
+                        <img src="../../Devoir/assets/image/amu.jpg" alt=""/>
 
                         <!--MENU-->
                         <div class="menu">

@@ -38,9 +38,8 @@
                                         <xsl:text>E-mail : </xsl:text>
                                         <a target="_blank" href="mailto:{adresse/mail}"> <xsl:value-of select="adresse/mail" /> </a>
                                     </p>
-                                    <br/>
                                     <p>
-                                     <xsl:text>Adresse web : </xsl:text>
+                                     <xsl:text>Site web : </xsl:text>
                                         <a target="_blank" href="{adresse/site-web}"> <xsl:value-of select="adresse/site-web" /> </a>
                                     </p>
                                 </div>

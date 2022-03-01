@@ -48,7 +48,7 @@
                         <xsl:for-each select="//intervenant[@id=$id_responsable]">
                             <ul>
                                 <li>
-                                    <a href="{@id}.html"><xsl:value-of select="nom"/></a>
+                                    <a href="../intervenants/{@id}.html"><xsl:value-of select="nom"/></a>
                                 </li>
                             </ul>
                         </xsl:for-each>
