@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!--Element racine 'master' avec ses deux fils <intervenatns et parcours> -->
 <!ELEMENT site-master (intervenants, parcours*)>
 
 <!--Les intervenants-->
@@ -30,10 +29,10 @@
 <!ELEMENT td (#PCDATA)>
 <!ELEMENT a  ANY>
 <!--Attribut pour les elements du parcours-->
-<!ATTLIST semestre id (S1 | S2) #REQUIRED>
+<!ATTLIST semestre id (S1 | S2 | S3| S4) #REQUIRED>
 <!ATTLIST parcours code ID #REQUIRED>
 <!ATTLIST responsable ref IDREF #REQUIRED>
-<!ATTLIST a  href CDATA	#REQUIRED>
+<!ATTLIST a  href CDATA #REQUIRED>
 
 
 <!--Les unites-->
@@ -45,13 +44,14 @@
 <!ELEMENT plan (texte)>
 <!--Attribut pour les unites-->
 <!ATTLIST ue-optionnelles credits-options CDATA #REQUIRED>
-<!ATTLIST unite id (SINAU01 |SINAU02 |SINAU03 |SINAU04 |SINAU05 |SINAU06 |SINAU07 |SINAU08 |SINBU01 |SINBX01 |SINBX02 |SINBX03 | SINAU1 | SINAU3 | ENSINBU4 | SINBU03 | SINBU30 | SINBU29) #REQUIRED>
+<!ATTLIST unite id (SINAU01 |SINAU02 |SINAU03 |SINAU04 |SINAU05 |SINAU06 |SINAU07 |SINAU08 |SINBU01 |SINBX01 |SINBX02 |SINBX03 | SINAU1 | SINAU3 | ENSINBU4 | SINBU03 | SINBU30 | SINBU29 | SINDU06L | SINDU01 | SINDU02 | SINCU92L | SINCU01L | SINCUA4L | SINCUA3 | SINCU02 | SINCU04 | SINCU06 | SINCU89 | SINCU97 | SINDU05 | SINCU01J | SINCU99J|SINCU98L|SINCUA1L|SINDU01L|SINDU01J | SINDU02J | SINCU01I | SINBU07L ) #REQUIRED>
 
 <!--ref intervenant-->
 <!ELEMENT ref-intervenant ANY>
 <!ATTLIST ref-intervenant ref IDREF #IMPLIED>
 
-<!--les entités
+<!--
+    les entités
 <!ENTITY dom.mail-mrs "univ-mrs.fr">
 <!ENTITY dom.mail-amu "univ-amu.fr">
 <!ENTITY dom.lieu-luminy "Luminy">

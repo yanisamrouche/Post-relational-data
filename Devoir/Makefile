@@ -18,11 +18,12 @@ web:
 	@echo "Fabrication du site WEB..."
 	java -jar saxon9/saxon9he.jar -xsl:./Fichiers_XSL/site-master.xsl site-master.xml
 	@echo "Fabrication du site WEB Fini..."
+
 tidy:
 	@echo "Verification des fichiers XHTML..."
-	tidy -utf8 --error-file err.txt -i -m ./www/*.html
+	tidy -utf8 -i -m ./www/*.html
 	@echo "Verification des fichiers XHTML Fini..."
-
+	
 xq:
 	@echo "XQuery..."
 	java -cp saxon9/saxon9he.jar: net.sf.saxon.Query -q:xq.txt -o:./www/xq.html

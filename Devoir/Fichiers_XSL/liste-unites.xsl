@@ -18,14 +18,18 @@
 
                         <!--MENU-->
                         <div class="menu">
+                            <div class="menu-gauche">
                             <a href="../index.html"> parcours </a> 
                                 <xsl:for-each select="//parcours">
                                     <a href="../parcours/{@code}.html">
                                         <xsl:value-of select="@code"/>
                                     </a>
                                 </xsl:for-each>
+                            </div>
+                            <div class="menu-droite">
                             <a href="liste-unites.html"> les unites</a>
                             <a href="../intervenants/liste-intervenants.html"> les intervenants</a>
+                            </div>
                         </div>
                         
                         <div>

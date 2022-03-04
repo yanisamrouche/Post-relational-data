@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE site-master SYSTEM "site-master.dtd"[
-		<!ENTITY dom.mail-mrs "univ-mrs.fr">
-		<!ENTITY dom.mail-amu "univ-amu.fr">
-		<!ENTITY dom.lieu-luminy "Luminy">
-		<!ENTITY dom.lieu-saint-jerome "Saint-Jérôme">
+        <!ENTITY dom.mail-mrs "univ-mrs.fr">
+        <!ENTITY dom.mail-amu "univ-amu.fr">
+        <!ENTITY dom.lieu-luminy "Luminy">
+        <!ENTITY dom.lieu-saint-jerome "Saint-Jérôme">
 ]>
 <site-master>
     <intervenants>
@@ -15,277 +15,847 @@
             </adresse>
     </intervenant>
     <intervenant id="Remi_MORIN">
-			<nom>Rémi MORIN</nom>
-			<adresse>
-				<mail>remi.morin@univ-amu.fr</mail>
-				<site-web>http://pageperso.lif.univ-mrs.fr/~remi.morin/</site-web>
-			</adresse>
-		</intervenant>
+            <nom>Rémi MORIN</nom>
+            <adresse>
+                <mail>remi.morin@univ-amu.fr</mail>
+                <site-web>http://pageperso.lif.univ-mrs.fr/~remi.morin/</site-web>
+            </adresse>
+        </intervenant>
     <intervenant id="Kevin_PERROT">
-			<nom>Kevin PERROT</nom>
-			<adresse>
-				<mail>kevin.perrot@lif.univ-mrs.fr</mail>
-				<site-web>http://pageperso.lif.univ-mrs.fr/~kevin.perrot/</site-web>
-			</adresse>
+            <nom>Kevin PERROT</nom>
+            <adresse>
+                <mail>kevin.perrot@lif.univ-mrs.fr</mail>
+                <site-web>http://pageperso.lif.univ-mrs.fr/~kevin.perrot/</site-web>
+            </adresse>
     </intervenant>
     <intervenant id="Djamal_HABET">
-			<nom>Djamal HABET</nom>
-			<adresse>
-				<mail>djamal.habet@univ-amu.fr</mail>
-				<site-web>https://pageperso.lis-lab.fr/djamal.habet/</site-web>
-			</adresse>
-	</intervenant>
+            <nom>Djamal HABET</nom>
+            <adresse>
+                <mail>djamal.habet@univ-amu.fr</mail>
+                <site-web>https://pageperso.lis-lab.fr/djamal.habet/</site-web>
+            </adresse>
+    </intervenant>
     <intervenant id="Omar_BOUCELMA">
-			<nom>Omar BOUCELMA</nom>
-			<adresse>
-				<mail>omar.boucelma@univ-amu.fr</mail>
-				<site-web>https://annuaire.univ-amu.fr/personnel/detail/b21hci5ib3VjZWxtYQ==</site-web>
-			</adresse>
-	</intervenant>
+            <nom>Omar BOUCELMA</nom>
+            <adresse>
+                <mail>omar.boucelma@univ-amu.fr</mail>
+                <site-web>https://annuaire.univ-amu.fr/personnel/detail/b21hci5ib3VjZWxtYQ==</site-web>
+            </adresse>
+    </intervenant>
     <intervenant id="Noel_NOVELLI">
-			<nom>Noël Novelli</nom>
-			<adresse>
-				<mail>noel.novelli@univ-amu.fr</mail>
+            <nom>Noël Novelli</nom>
+            <adresse>
+                <mail>noel.novelli@univ-amu.fr</mail>
                 <site-web>https://pageperso.lis-lab.fr/noel.novelli/</site-web>
-			</adresse>
-	</intervenant>
+            </adresse>
+    </intervenant>
     <intervenant id="Emmanuel_GODARD">
-			<nom>Emmanuel GODARD</nom>
-			<adresse>
-				<mail>emmanuel.godard@univ-amu.fr</mail>
-				<site-web>https://pageperso.lis-lab.fr/emmanuel.godard/index.html</site-web>
-			</adresse>
-	</intervenant>
+            <nom>Emmanuel GODARD</nom>
+            <adresse>
+                <mail>emmanuel.godard@univ-amu.fr</mail>
+                <site-web>https://pageperso.lis-lab.fr/emmanuel.godard/index.html</site-web>
+            </adresse>
+    </intervenant>
      <intervenant id="Philippe_Jegou">
-			<nom>Philippe Jegou</nom>
-			<adresse>
-				<mail>philippe.jegou@univ-amu.fr</mail>
-				<site-web>https://www.researchgate.net/profile/Philippe-Jegou</site-web>
-			</adresse>
-	</intervenant>
+            <nom>Philippe Jegou</nom>
+            <adresse>
+                <mail>philippe.jegou@univ-amu.fr</mail>
+                <site-web>https://www.researchgate.net/profile/Philippe-Jegou</site-web>
+            </adresse>
+    </intervenant>
      <intervenant id="Maamar_El-Amine_HAMRI">
-			<nom>Maâmar El-Amine HAMRI </nom>
-			<adresse>
-				<mail>amine.hamri@lsis.org</mail>
-				<site-web>http://www.liophant.org/iepal/u_us3/cv_f_a.html</site-web>
-			</adresse>
-	</intervenant>
+            <nom>Maâmar El-Amine HAMRI </nom>
+            <adresse>
+                <mail>amine.hamri@lsis.org</mail>
+                <site-web>http://www.liophant.org/iepal/u_us3/cv_f_a.html</site-web>
+            </adresse>
+    </intervenant>
+         <intervenant id="GRAINGER_Thomas">
+            <nom>GRAINGER Thomas</nom>
+            <adresse>
+                <mail>tom.grainger@univ-amu.fr</mail>
+                <site-web>https://www.arounddeal.com/profile/tom-grainger/b4dcfnansx/</site-web>
+            </adresse>
+    </intervenant>
+    <intervenant id="CONTENSIN_Magali">
+        <nom>CONTENSIN Magali</nom>
+        <adresse>
+            <mail>magali.contensin@univ-amu.fr</mail>
+            <site-web>le site est non rensigné </site-web>
+        </adresse>
+    </intervenant>
+    <intervenant id="ROMANO_Christian">
+        <nom>ROMANO Christian</nom>
+        <adresse>
+            <mail>christian.ROMANO@univ-amu.fr</mail>
+            <site-web>https://copainsdavant.linternaute.com/p/christian-romano-20127144</site-web>
+        </adresse>
+    </intervenant>
+    <intervenant id="HOAREAU_Nicolas">
+        <nom>HOAREAU Nicolas</nom>
+        <adresse>
+            <mail>nicolasO.HOAREAU@univ-amu.fr</mail>
+            <site-web>https://fr.linkedin.com/in/nicolas-hoareau-craftedbits</site-web>
+        </adresse>
+    </intervenant>
+    <intervenant id="Clara_BERTOLISSI">
+        <nom>Clara BERTOLISSI</nom>
+        <adresse>
+            <mail>clara.bertolissi@univ-amu.fr</mail>
+            <site-web>https://pageperso.lis-lab.fr/~clara.bertolissi/</site-web>
+        </adresse>
+    </intervenant>
+    <intervenant id="Roland_AGOPIAN">
+        <nom>Roland AGOPIAN</nom>
+        <adresse>
+            <mail>roland.agopian@univ-amu.fr</mail>
+            <site-web>https://jorfsearch.steinertriples.fr/Q2302586</site-web>
+        </adresse>
+    </intervenant>
     </intervenants>
 
    <parcours code="M1">
-		<nom>Première année de tronc commun</nom>
-		<lieu>Luminy</lieu>
-		<lieu>Saint-Jérôme</lieu>
-		<responsable ref="Remi_MORIN"/>
-		<description>
-			<texte>
-				<p>L'objectif de cette première année est de donner les bases indispensables permettant, en deuxième année, de choisir une spécialisation dans un domaine précis. Sur les 60 crédits de cette première année, 15 crédits correspondent à des enseignements optionnels. Ces options permettent de construire un parcours adapté. Un choix entre stage ou projet encadré est également proposé au semestre de printemps.</p>
-			</texte>
-		</description>
+        <nom>Première année de tronc commun</nom>
+        <lieu>Luminy</lieu>
+        <lieu>Saint-Jérôme</lieu>
+        <responsable ref="Remi_MORIN"/>
+        <description>
+            <texte>
+                <p>L'objectif de cette première année est de donner les bases indispensables permettant, en deuxième année, de choisir une spécialisation dans un domaine précis. Sur les 60 crédits de cette première année, 15 crédits correspondent à des enseignements optionnels. Ces options permettent de construire un parcours adapté. Un choix entre stage ou projet encadré est également proposé au semestre de printemps.</p>
+            </texte>
+        </description>
 
-        <semestre id="S1">	
-			<ue-obligatoires>
-				<unite id="SINAU02">
-					<nom>Génie Logiciel</nom>
-					<nombre-credits>6</nombre-credits>
-					<ref-intervenant ref="Maamar_El-Amine_HAMRI"/>
-					<ref-intervenant ref="Kevin_PERROT"/>
-					<resume>
-						<texte>
-							<ul>
-							    <li>Introduction au génie logiciel</li>
-							    <li>Gestion de projet</li>
-							    <li>Méthodes (Spécification et conception)</li>
-							    <li>UML et Design patterns</li>
-							</ul>
-						</texte>
-					</resume>
-					<plan>
+        <semestre id="S1"> 
+            <ue-obligatoires>
+                <unite id="SINAU02">
+                    <nom>Génie Logiciel</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Maamar_El-Amine_HAMRI"/>
+                    <ref-intervenant ref="Kevin_PERROT"/>
+                    <resume>
+                        <texte>
+                            <ul>
+                                <li>Introduction au génie logiciel</li>
+                                <li>Gestion de projet</li>
+                                <li>Méthodes (Spécification et conception)</li>
+                                <li>UML et Design patterns</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
                             </texte>
                     </plan>
-					<lieu>Luminy</lieu>
-				</unite>
-				<unite id="SINAU05">
-					<nom>Programmation objet concurrente</nom>
-					<nombre-credits>3</nombre-credits>
-					<ref-intervenant ref="Remi_MORIN"/>
-					<resume>
-						<texte>
-                         Cette UE présente aux étudiants du M1 les principales difficultés de la programmation multi-thread et les techniques classiques permettant de développer un code correct et performant. 
-						</texte>
-					</resume>
-					<plan>
+                    <lieu>Luminy</lieu>
+                </unite>
+                <unite id="SINAU05">
+                    <nom>Programmation objet concurrente</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Remi_MORIN"/>
+                    <resume>
+                        <texte>
+                         Cette UE présente aux étudiants du M1 les principales difficultés de la programmation multi-thread et les techniques classiques permettant de développer un code correct et performant.
+                        </texte>
+                    </resume>
+                    <plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
                             </texte>
                     </plan>
-					<lieu>Luminy</lieu>
-				</unite>		
-				<unite id="SINAU3">
-					<nom>Complexité</nom>
-					<nombre-credits>6</nombre-credits>
-					<ref-intervenant ref="Philippe_Jegou"/>
-					
-					<resume>
-						<texte>
-							<ul>
-							    <li>Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes.</li>
-							    <li>Notion de problèmes (décision, recherche, dénombrement, énumération, optimisation). Bornes inférieures de complexité.</li>
-							    <li>Classes P et NP. Problèmes NP-complets.</li>
-							    <li>Méthodes de résolution des problèmes NP-Complets.</li>
-							</ul>
-						</texte>
-					</resume>
-					<plan>
+                    <lieu>Luminy</lieu>
+                </unite>       
+                <unite id="SINAU3">
+                    <nom>Complexité</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Philippe_Jegou"/>
+                   
+                    <resume>
+                        <texte>
+                            <ul>
+                                <li>Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes.</li>
+                                <li>Notion de problèmes (décision, recherche, dénombrement, énumération, optimisation). Bornes inférieures de complexité.</li>
+                                <li>Classes P et NP. Problèmes NP-complets.</li>
+                                <li>Méthodes de résolution des problèmes NP-Complets.</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
                             </texte>
                     </plan>
-					<lieu>Luminy</lieu>
-				</unite>			
-				<unite id="SINAU06">
-					<nom>Réseaux</nom>
-					<nombre-credits>6</nombre-credits>
-					<ref-intervenant ref="Djamal_HABET"/>
-					<resume>
-						<texte>
-							<ul>
-							    <li>Architecture en couches, standard OSI</li>
-							    <li>Couche physique</li>
-							    <li>Couche liaison de Données</li>
-							    <li>Réseau IP</li>
-							    <li>Algorithmes de routage, routage IP</li>
-							    <li>Protocole TCP/IP</li>
-							    <li>Couche Application : HTTP, SMTP, FTP, ...</li>
-							    <li>Bases des protocoles cryptographiques (terminologie, architecture à clef publique).</li>
-							    <li>Introduction à la Sécurité des réseaux.</li>
-							</ul>
-						</texte>
-					</resume>
-					<plan>
+                    <lieu>Luminy</lieu>
+                </unite>           
+                <unite id="SINAU06">
+                    <nom>Réseaux</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Djamal_HABET"/>
+                    <resume>
+                        <texte>
+                            <ul>
+                                <li>Architecture en couches, standard OSI</li>
+                                <li>Couche physique</li>
+                                <li>Couche liaison de Données</li>
+                                <li>Réseau IP</li>
+                                <li>Algorithmes de routage, routage IP</li>
+                                <li>Protocole TCP/IP</li>
+                                <li>Couche Application : HTTP, SMTP, FTP, ...</li>
+                                <li>Bases des protocoles cryptographiques (terminologie, architecture à clef publique).</li>
+                                <li>Introduction à la Sécurité des réseaux.</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
                             </texte>
                     </plan>
-					<lieu>Luminy</lieu>
-							</unite>
-		        <unite id="SINAU1">
-				<nom>Anglais</nom>
-				<nombre-credits>3</nombre-credits>
-				<ref-intervenant/>
-				<resume>
-					<texte>
-						<p>Un enseignement destiné à confirmer l'utilisation de l'anglais dans le contexte de l'informatique ainsi que dans la pratique professionnelle.</p>
-					</texte>
-				</resume>
-				<plan>
+                    <lieu>Luminy</lieu>
+                            </unite>
+                <unite id="SINAU1">
+                <nom>Anglais</nom>
+                <nombre-credits>3</nombre-credits>
+                <ref-intervenant/>
+                <resume>
+                    <texte>
+                        <p>Un enseignement destiné à confirmer l'utilisation de l'anglais dans le contexte de l'informatique ainsi que dans la pratique professionnelle.</p>
+                    </texte>
+                </resume>
+                <plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
                             </texte>
                 </plan>
-				<lieu>Luminy</lieu>
-				</unite>
-            </ue-obligatoires>    
-		</semestre>
-		<semestre id="S2">	
-		    <ue-obligatoires>
-	        <unite id="ENSINBU4">
-					<nom>Données post relationnels </nom>
-					<nombre-credits>3</nombre-credits>
-					<ref-intervenant ref="Jean-Luc_MASSAT"/>
-					<resume>
-						<texte>
-							<ul>
-							 	<li>XML, DTD, XSD</li>
-							 	<li>XPath, XSLT, XQuery</li>
-							</ul>
-						</texte>
-					</resume>
-					<plan>
+                <lieu>Luminy</lieu>
+                </unite>
+            </ue-obligatoires>   
+        </semestre>
+        <semestre id="S2"> 
+            <ue-obligatoires>
+            <unite id="SINBU07L">
+                    <nom>Interface homme-machine</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Noel_NOVELLI"/>
+                    <resume>
+                        <texte>
+                          <p> Programmation événementielle, informatique graphique/OpenGL et Ergonomie/Responsive</p> 
+                        </texte>
+                    </resume>
+                    <plan>
                             <texte>
-                    		<ul>
-							    <li>chapitre 01 : ...</li>
-							    <li>chapitre 02 : ...</li>
-							    <li>chapitre 03 : ...</li>
-							    <li>chapitre 04 : ...</li>
-							</ul>
+                                <ul>
+                                    <li>chapitre 01 : ...</li>
+                                    <li>chapitre 02 : ...</li>
+                                    <li>chapitre 03 : ...</li>
+                                    <li>chapitre 04 : ...</li>
+                                </ul>
                             </texte>
                     </plan>
-					<lieu>Luminy</lieu>
-				</unite>
+                    <lieu>Luminy</lieu>
+                </unite>    
+            <unite id="ENSINBU4">
+                    <nom>Données post relationnels </nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Jean-Luc_MASSAT"/>
+                    <resume>
+                        <texte>
+                            <ul>
+                                <li>XML, DTD, XSD</li>
+                                <li>XPath, XSLT, XQuery</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>
             </ue-obligatoires>
            <ue-optionnelles credits-options="3">
                 <unite id="SINBU03">
-					<nom>cryptographie</nom>
-					<nombre-credits>3</nombre-credits>
-					<ref-intervenant ref="Remi_MORIN"/>
-					<resume>
-						<texte>
-							<p>Cette UE propose un tour d'horizon de la cryptographie moderne: il s'agit d'initier les étudiants du Master Informatique aux problématiques fondamentales de confidentialité, d’authentification et d’intégrité, illustrées sur des cas concrets. Une attention particulière est portée sur la mise-en-oeuvre de primitives cryptographiques à l'aide de librairies spécifiques afin d'être en mesure d'incorporer des fonctionnalités cryptographiques dans un logiciel sécurisé.</p>
-						</texte>
-					</resume>
-					<plan>
+                    <nom>cryptographie</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Remi_MORIN"/>
+                    <resume>
+                        <texte>
+                            <p>Cette UE propose un tour d'horizon de la cryptographie moderne: il s'agit d'initier les étudiants du Master Informatique aux problématiques fondamentales de confidentialité, d’authentification et d’intégrité, illustrées sur des cas concrets. Une attention particulière est portée sur la mise-en-oeuvre de primitives cryptographiques à l'aide de librairies spécifiques afin d'être en mesure d'incorporer des fonctionnalités cryptographiques dans un logiciel sécurisé.</p>
+                        </texte>
+                    </resume>
+                    <plan>
                             <texte>
-								<ul>
-									<li>chapitre 01 : ...</li>
-									<li>chapitre 02 : ...</li>
-									<li>chapitre 03 : ...</li>
-									<li>chapitre 04 : ...</li>
-								</ul>
+                                <ul>
+                                    <li>chapitre 01 : ...</li>
+                                    <li>chapitre 02 : ...</li>
+                                    <li>chapitre 03 : ...</li>
+                                    <li>chapitre 04 : ...</li>
+                                </ul>
                             </texte>
                     </plan>
-					<lieu>Luminy</lieu>
-				</unite>
-			</ue-optionnelles>   
-			<ue-optionnelles credits-options="6">
-				<unite id="SINBU30">
-					<nom>Stage de deux mois</nom>
-					<nombre-credits>6</nombre-credits>
-					<ref-intervenant ref="Remi_MORIN"/>
-					<resume>
-						<texte>
-							<p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en nbrCours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</p>
-						</texte>
-					</resume>
-				</unite>
-				<unite id="SINBU29">
-					<nom>Travail d'étude et de recherche</nom>
-					<nombre-credits>6</nombre-credits>
-					<ref-intervenant ref="Remi_MORIN"/>
-					<resume>
-						<texte>
-							<p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en nbrCours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</p>
-						</texte>
-					</resume>
-				</unite>
+                    <lieu>Luminy</lieu>
+                </unite>
+            </ue-optionnelles>   
+            <ue-optionnelles credits-options="6">
+                <unite id="SINBU30">
+                    <nom>Stage de deux mois</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Remi_MORIN"/>
+                    <resume>
+                        <texte>
+                            <p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en nbrCours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</p>
+                        </texte>
+                    </resume>
+                </unite>
+                <unite id="SINBU29">
+                    <nom>Travail d'étude et de recherche</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Remi_MORIN"/>
+                    <resume>
+                        <texte>
+                            <p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en nbrCours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</p>
+                        </texte>
+                    </resume>
+                </unite>
            </ue-optionnelles>   
+        </semestre>
+        <liste-debouches>
+            <texte>Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration. Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, de responsable de produit, d’ingénieur recherche et développement sont également accessibles.</texte>
+        </liste-debouches>
+    </parcours>
+    <parcours code="IDL">
+        <nom>Deuxième année master informatique parcours IDL</nom>
+        <lieu>Luminy</lieu>
+        <responsable ref="Jean-Luc_MASSAT"/>
+        <description>
+            <texte>
+                <p>Former des informaticiens aux problématiques du développe­ment logiciel, à savoir l’ex­pression des besoins, la spécification, la conception, la réali­sation, la vérification de la qualité et le déploiement. Les diplômés spécifieront et réaliseront des solutions logi­cielles sécurisées et de quali­té dans des environnements complexes afin d’aider les entre­prises à développer leur système d’information et faciliter leur évolution vers une écono­mie dirigée par le nu­mérique.</p>
+            </texte>
+        </description>
+
+        <semestre id="S3"> 
+            <ue-obligatoires>
+                <unite id="SINCU01L">
+                    <nom>Anglais S3 (IDL) </nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="GRAINGER_Thomas"/>
+                    <resume>
+                        <texte>
+                          <p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p> 
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>
+                <unite id="SINCU92L">
+                    <nom>Qualité logicielle</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="CONTENSIN_Magali"/>
+                    <resume>
+                        <texte>
+                         <ul>
+                                <li>Introduction : définition, coût de la non qualité, CMMI.</li>
+                                <li>Normes et processus d’évaluation : critères de McCall, ISO/CEI 9126, ISO/IEC 25010.</li>
+                                <li>Accessibilité : W3C WCAG2.1.</li>
+                                <li>Sécurité des applications web : vulnérabilités, protection.</li>
+                                <li>Revues, inspections, audit : SonarQube, outils d’audit de sécurité de code source, scanners de vulnérabilité.</li>
+                                <li>Gérer la qualité logicielle : définir un référentiel de bonnes pratiques, utiliser un gestionnaire de code, documenter le code et sa qualité, faire des tests unitaires et fonctionnels, utiliser un outil d’évaluation de la qualité du code, travailler en intégration continue.</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite> 
+                <unite id="SINCUA3">
+                    <nom>Architecture des applications</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Jean-Luc_MASSAT"/>
+                    <resume>
+                        <texte>
+                        Architecture des applications
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                                <li>chapitre 05 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>               
+                <unite id="SINCUA4L">
+                <nom>Principes et outils pour le DevOps</nom>
+                <nombre-credits>3</nombre-credits>
+                <ref-intervenant ref="ROMANO_Christian"/>
+                <resume>
+                    <texte>
+                        <p>Principes et outils pour le DevOps</p>
+                    </texte>
+                </resume>
+                <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                </plan>
+                <lieu>Luminy</lieu>
+                </unite>
+            </ue-obligatoires>   
+        </semestre>
+        <semestre id="S4">
+        <ue-obligatoires>
+                <unite id="SINCU01I">
+                    <nom>Anglais S4 (IDL) </nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="GRAINGER_Thomas"/>
+                    <resume>
+                        <texte>
+                          <p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p> 
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>    
+                
+                <unite id="SINDU05">
+                    <nom>Interfaces Homme-machine sur le WEB et les mobiles</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="HOAREAU_Nicolas"/>
+                    <resume>
+                        <texte>
+                          <p>L'interaction homme-machine, appelé IHM, s’intéresse à la conception et au développement de systèmes interactifs en prenant en compte ses impacts sociétaux et éthiques .</p> 
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>
+                
+                <unite id="SINDU06L">
+                    <nom> Environnement professionnel et veille technologique</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Jean-Luc_MASSAT"/>
+                    <resume>
+                        <texte>
+                        <p>Faire de la veille technologique consiste à rechercher des informations pour augmenter son niveau de connaissances et de culture, technique et fonctionnelle. Elle permet de découvrir de nouveaux produits, procédés ou tout simplement de s’informer sur l’environnement Tech en général.</p>
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                                <li>chapitre 05 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite> 
+            </ue-obligatoires> 
+            <ue-optionnelles credits-options="6">
+                <unite id="SINDU01J">
+                    <nom>Travail d'étude et de recherche S4 (IDL) </nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Jean-Luc_MASSAT"/>
+                    <resume>
+                        <texte>
+                            <p>hypothèse de recherche qu'il conviendra de tester. Le travail empirique peut prendre plusieurs formes : reproduction d'un paradigme expérimental, constitution de matériel expérimental .</p>
+                        </texte>
+                    </resume>
+                </unite>
+                <unite id="SINDU02">
+                    <nom>Stage de cinq à six mois (IDL) </nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Jean-Luc_MASSAT"/>
+                    <resume>
+                        <texte>
+                            <ul>
+                                <li>Recherche d'un stage.</li>
+                                <li>Validation du sujet de stage.</li>
+                                <li>Suivi du bon déroulement du stage.</li>
+                                <li>Aide à la rédaction du mémoire de stage.</li>
+                                <li>Soutenance et évaluation du stage.</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                </unite>
+           </ue-optionnelles>  
+        </semestre>
+        <liste-debouches>
+            <texte>Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration. Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, de responsable de produit, d’ingénieur recherche et développement sont également accessibles.</texte>
+        </liste-debouches>
+    </parcours>
+    <parcours code="FSI">
+        <nom>Deuxième année master informatique parcours FSI</nom>
+        <lieu>Luminy</lieu>
+        <responsable ref="Emmanuel_GODARD "/>
+        <description>
+            <texte>
+                <p>La formation permet d’acquérir les principes et techniques liés à la conception, l’implémentation, l’exploitation de systèmes et applications informatiques sûrs dans un environnement ouvert et hétérogène. Les métiers visés sont ceux du large champ de la sécurité informatique (applications sécurisées, management de la sécurité, administration d’infrastructures, normes et qualité, audit de sécurité).</p>
+            </texte>
+        </description>
+
+        <semestre id="S3"> 
+            <ue-obligatoires>
+                <unite id="SINCU01J">
+                    <nom>Anglais S3 (FSI) </nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="GRAINGER_Thomas"/>
+                    <resume>
+                        <texte>
+                          <p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p> 
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>
+                <unite id="SINCU02">
+                    <nom>Sécurité internet réseaux</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Emmanuel_GODARD"/>
+                    <resume>
+                        <texte>
+                        <p>L'objectif du cours est de parcourir les bases des infrastructures réseaux sécurisées avec et sans fil.</p>
+                         <ul>
+                                <li>Cryptographie (rappels)</li>
+                                <li>Certificats et PKIs</li>
+                                <li>Architectures sécurisées</li>
+                                <li>Cryptanalyse</li>
+                                <li>Sécurité Défensive</li>
+                                <li>Sécurité Offensive Réseaux</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite> 
+                <unite id="SINCU06">
+                    <nom>Politiques et modèles de contrôle d'accès</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Clara_BERTOLISSI"/>
+                    <resume>
+                        <texte>
+                        Théorie et pratique du contrôle d’accès ; réseaux, applicatifs et IAM.
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                                <li>chapitre 05 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>               
+                <unite id="SINCU04">
+                <nom>Sécurité fonctionnelle et qualité</nom>
+                <nombre-credits>3</nombre-credits>
+                <ref-intervenant ref="Roland_AGOPIAN"/>
+                <resume>
+                    <texte>
+                         <ul>
+                                <li>Sécurité organisationnelle, méthodologies et normes.</li>
+                                <li>Qualité logicielle – Référentiels et méthodologies.</li>
+                        </ul>
+                    </texte>
+                </resume>
+                <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                </plan>
+                <lieu>Luminy</lieu>
+                </unite>
+            </ue-obligatoires>   
+        </semestre>
+        <semestre id="S4">
+            <ue-obligatoires>
+               <unite id="SINCU99J">
+                    <nom>Anglais S4 (FSI)</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="GRAINGER_Thomas"/>
+                    <resume>
+                        <texte>
+                          <p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p> 
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>Luminy</lieu>
+                </unite>    
+            </ue-obligatoires>
+            <ue-optionnelles credits-options="6">
+                <unite id="SINDU01L">
+                    <nom>Travail d'étude et de recherche S4 (FSI) </nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Emmanuel_GODARD "/>
+                    <resume>
+                        <texte>
+                            <p>hypothèse de recherche qu'il conviendra de tester. Le travail empirique peut prendre plusieurs formes : reproduction d'un paradigme expérimental, constitution de matériel expérimental .</p>
+                        </texte>
+                    </resume>
+                </unite>
+                
+           </ue-optionnelles>  
+        </semestre>
+        <liste-debouches>
+            <texte>Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration. Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, de responsable de produit, d’ingénieur recherche et développement sont également accessibles.</texte>
+        </liste-debouches>
+
+    </parcours>
+        <parcours code="SID">
+        <nom>deuxième année master informatique parcours SID</nom>
+        <lieu>SCIENCES,Marseille Saint-Jérôme</lieu>
+        <responsable ref="Djamal_HABET"/>
+        <description>
+            <texte>
+                <p>La prolifération de données dans divers domaines d'application a abouti à l'émergence de la discipline science de données (SD) dont l'objet est d'extraire des connaissances, ou de la valeur, à partir de données. L'objectif de cette formation est de former des ingénieurs et des chercheurs en science de données en capacité de comprendre et de concevoir des solutions applicatives à des problèmes relevant de différents cycles de vie de la donnée. En particulier, ils développeront des compétences dans:
+
+                   La collecte de grandes masses de données et leur stockage
+                   L'analyse des données, la recherche d'information et l'extraction de connaissances
+                   Le raisonnement sur ces connaissances pour la prise de décision et la production de valeur.
+
+                   Des cas d'application relevant de domaines stratégiques, tels que les villes intelligentes, la santé et le transport, seront étudiés et traités</p>
+            </texte>
+        </description>
+
+        <semestre id="S3"> 
+            <ue-obligatoires>
+                <unite id="SINCU98L">
+                    <nom>Anglais S3 (SID) </nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="GRAINGER_Thomas"/>
+                    <resume>
+                        <texte>
+                          <p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p> 
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>SCIENCES,Marseille Saint-Jérôme</lieu>
+                </unite>
+                <unite id="SINCU89">
+                    <nom>Big data</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Omar_BOUCELMA"/>
+                    <resume>
+                        <texte>
+                        <p>L’objectif de cette UE est de découvrir les plateformes et techniques pour traiter des masses de données hétérogènes.</p>
+                         <ul>
+                                <li>Architecture et technologies, programmation.</li>
+                                <li>Map/Reduce, HDFS.</li>
+                                <li>SGBD NoSQL.</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>SCIENCES,Marseille Saint-Jérôme</lieu>
+                </unite> 
+                <unite id="SINCU97">
+                    <nom>Cloud computing</nom>
+                    <nombre-credits>3</nombre-credits>
+                    <ref-intervenant ref="Omar_BOUCELMA"/>
+                    <resume>
+                        <texte>
+                        Le Cloud Computing désigne un univers de ressources (stockage, calcul) utilisables de manière élastique (à la demande) à travers Internet. Dans cette UE, nous étudierons les principaux concepts : virtualisation, sécurisation, les modèles de services IaaS, PaaS, SaaS, les types de cloud (privé, public, etc.). Nous examinerons aussi les défis, risques et opportunités soulevés par l’adoption du Cloud. Les travaux pratiques seront réalisés sur une des plateformes de Cloud comme Microsoft Azure ou AWS.
+                        </texte>
+                    </resume>
+                    <plan>
+                            <texte>
+                            <ul>
+                                <li>chapitre 01 : ...</li>
+                                <li>chapitre 02 : ...</li>
+                                <li>chapitre 03 : ...</li>
+                                <li>chapitre 04 : ...</li>
+                                <li>chapitre 05 : ...</li>
+                            </ul>
+                            </texte>
+                    </plan>
+                    <lieu>SCIENCES,Marseille Saint-Jérôme</lieu>
+                </unite>               
+            </ue-obligatoires>   
+        </semestre>
+        <semestre id="S4">
+            <ue-obligatoires>
+                <unite id="SINCUA1L">
+                        <nom>Anglais S4 (SID)</nom>
+                        <nombre-credits>3</nombre-credits>
+                        <ref-intervenant ref="GRAINGER_Thomas"/>
+                        <resume>
+                            <texte>
+                            <p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p> 
+                            </texte>
+                        </resume>
+                        <plan>
+                                <texte>
+                                <ul>
+                                    <li>chapitre 01 : ...</li>
+                                    <li>chapitre 02 : ...</li>
+                                    <li>chapitre 03 : ...</li>
+                                    <li>chapitre 04 : ...</li>
+                                </ul>
+                                </texte>
+                        </plan>
+                        <lieu>Luminy</lieu>
+                    </unite>    
+                </ue-obligatoires>
+            <ue-optionnelles credits-options="6">
+                <unite id="SINDU01">
+                    <nom>Travail d'étude et de recherche S4 (SID)</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Djamal_HABET"/>
+                    <resume>
+                        <texte>
+                            <p>hypothèse de recherche qu'il conviendra de tester. Le travail empirique peut prendre plusieurs formes : reproduction d'un paradigme expérimental, constitution de matériel expérimental .</p>
+                        </texte>
+                    </resume>
+                </unite>
+                <unite id="SINDU02J">
+                    <nom>Stage de cinq à six mois (SID)</nom>
+                    <nombre-credits>6</nombre-credits>
+                    <ref-intervenant ref="Djamal_HABET"/>
+                    <resume>
+                        <texte>
+                            <ul>
+                                <li>Recherche d'un stage.</li>
+                                <li>Validation du sujet de stage.</li>
+                                <li>Suivi du bon déroulement du stage.</li>
+                                <li>Aide à la rédaction du mémoire de stage.</li>
+                                <li>Soutenance et évaluation du stage.</li>
+                            </ul>
+                        </texte>
+                    </resume>
+                </unite>
+           </ue-optionnelles>  
         </semestre>
         <liste-debouches>
             <texte>Les diplômés occuperont des postes d’ingénieur étude et développement, ingénieur test et validation ou ingénieur intégration. Ils pourront, à moyen terme, évoluer vers des postes de consultant technique, consultant fonctionnel ou des postes d’assistant chef de projet en informatique. À plus long terme, les postes d’expert technique ou fonctionnel, d’architecte logiciel, de responsable de produit, d’ingénieur recherche et développement sont également accessibles.</texte>

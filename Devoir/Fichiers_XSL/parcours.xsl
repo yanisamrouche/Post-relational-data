@@ -20,6 +20,7 @@
                                 <img src="../../assets/image/amu.jpg" alt=""/>
 
                     <div class="menu">
+                        <div class="menu-gauche">
                         <a href="../index.html"> Parcours </a> 
                             <xsl:for-each select="//parcours">
                                 <xsl:choose>
@@ -37,8 +38,11 @@
 
                            
                             </xsl:for-each>
+                        </div>
+                        <div class="menu-droite">
                         <a href="../unites/liste-unites.html"> Les unites</a>
                         <a href="../intervenants/liste-intervenants.html"> Les intervenants</a>
+                        </div>
                     </div>
 
                     <div class="parcours">
